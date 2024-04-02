@@ -9,7 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
-    private var postViewModel: PostViewModel!
+    //private var postViewModel: PostViewModel!
+    fileprivate var postViewModel: PostViewModel! // Change access level to fileprivate
+
            
     override func viewDidLoad() {
                super.viewDidLoad()
